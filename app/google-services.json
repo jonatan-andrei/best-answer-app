@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "887002309934",
+    "project_id": "bestanswer-55d5e",
+    "storage_bucket": "bestanswer-55d5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887002309934:android:27abdb92cf2d202fc746bf",
+        "android_client_info": {
+          "package_name": "com.example.bestanswernovaversao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887002309934-of4vrk59blnrb41pdbfuc17de2pp6bks.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bestanswernovaversao",
+            "certificate_hash": "32a8598916f96509feb27b99b4b87ce4411a9cff"
+          }
+        },
+        {
+          "client_id": "887002309934-4hqrs61r37m84jm1fok63viaj7mp0bft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh8JUWP1aQwpnXd8QinCNmJ-Xk0JqFJ4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887002309934-4hqrs61r37m84jm1fok63viaj7mp0bft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

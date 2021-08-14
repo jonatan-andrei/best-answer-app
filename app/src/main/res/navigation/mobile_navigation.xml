@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.bestanswernovaversao.fragment.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_perguntar"
+        android:name="com.example.bestanswernovaversao.fragment.FazerPerguntaFragment"
+        android:label="@string/menu_perguntar"
+        tools:layout="@layout/fragment_fazer_pergunta" />
+
+    <fragment
+        android:id="@+id/nav_todas_perguntas"
+        android:name="com.example.bestanswernovaversao.fragment.ListarPerguntasFragment"
+        android:label="@string/menu_listar_perguntas"
+        tools:layout="@layout/fragment_listar_perguntas" />
+
+    <fragment
+        android:id="@+id/nav_convidar"
+        android:name="com.example.bestanswernovaversao.fragment.ConvidarAmigoFragment"
+        android:label="@string/menu_convidar"
+        tools:layout="@layout/fragment_convidar_amigo" />
+
+    <fragment
+        android:id="@+id/nav_responder_pergunta"
+        android:name="com.example.bestanswernovaversao.fragment.ResponderPerguntaFragment"
+        android:label="@string/responder_pergunta"
+        tools:layout="@layout/fragment_responder_pergunta" />
+
+    <fragment
+        android:id="@+id/nav_editar_pergunta"
+        android:name="com.example.bestanswernovaversao.fragment.EditarPerguntaFragment"
+        android:label="@string/editar_pergunta"
+        tools:layout="@layout/fragment_editar_pergunta" />
+
+    <fragment
+        android:id="@+id/nav_publicar_artigo"
+        android:name="com.example.bestanswernovaversao.fragment.PublicarArtigoFragment"
+        android:label="@string/menu_publicar_artigo"
+        tools:layout="@layout/fragment_publicar_artigo" />
+
+    <fragment
+        android:id="@+id/nav_todos_artigos"
+        android:name="com.example.bestanswernovaversao.fragment.ListarArtigosFragment"
+        android:label="@string/menu_todos_artigos"
+        tools:layout="@layout/fragment_listar_artigos" />
+
+    <fragment
+        android:id="@+id/nav_editar_artigo"
+        android:name="com.example.bestanswernovaversao.fragment.EditarArtigoFragment"
+        android:label="@string/editar_artigo"
+        tools:layout="@layout/fragment_editar_artigo" />
+
+</navigation>

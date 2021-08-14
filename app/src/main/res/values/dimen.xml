@@ -1,0 +1,22 @@
+<resources>
+    <dimen name="margem_padrao">5dp</dimen>
+    <dimen name="margem_pagina_sobre">20dp</dimen>
+    <dimen name="fonte_titulo">50sp</dimen>
+    <dimen name="fonte_textos_apresentacao">40sp</dimen>
+    <dimen name="fonte_descricao">30sp</dimen>
+    <dimen name="fonte_titulo_pagina_listagem">25sp</dimen>
+    <dimen name="margem_conteudo">10dp</dimen>
+    <dimen name="weight_botoes">1</dimen>
+    <dimen name="weight_menu">1</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">20dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="layout_margin_card_view">8dp</dimen>
+    <dimen name="card_elevation_card_view">4dp</dimen>
+    <dimen name="card_padding">8dp</dimen>
+    <dimen name="tamanho_fonte_card">16dp</dimen>
+    <dimen name="fonte_titulo_pagina_convidar">25sp</dimen>
+    <dimen name="margem_conteudo_perguntar">20dp</dimen>
+</resources>

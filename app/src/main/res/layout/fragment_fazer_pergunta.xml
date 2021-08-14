@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.gridlayout.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.FazerPerguntaFragment"
+    app:rowCount="6"
+    app:columnCount="1">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewTitulo"
+        app:errorEnabled="true"
+        app:counterEnabled="true"
+        app:counterMaxLength="120"
+        android:layout_marginLeft="@dimen/margem_conteudo"
+        android:layout_marginRight="@dimen/margem_conteudo"
+        android:layout_marginTop="@dimen/margem_conteudo"
+        app:layout_column="0"
+        app:layout_row="0"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTituloEdit"
+            android:hint="@string/informe_titulo_pergunta"
+            android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewDescricao"
+        app:errorEnabled="true"
+        app:counterEnabled="true"
+        app:counterMaxLength="500"
+        android:layout_marginLeft="@dimen/margem_conteudo"
+        android:layout_marginRight="@dimen/margem_conteudo"
+        android:layout_marginTop="@dimen/margem_conteudo"
+        app:layout_column="0"
+        app:layout_row="1"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtDescricaoEdit"
+            android:hint="@string/informe_descricao_pergunta"
+            android:inputType="text"
+            android:lines="2"
+            android:maxLines="5"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textViewCategoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/informe_categoria_pergunta"
+        android:layout_marginLeft="@dimen/margem_conteudo_perguntar"
+        android:layout_marginRight="@dimen/margem_conteudo_perguntar"
+        app:layout_column="0"
+        app:layout_row="2"/>
+
+    <Spinner
+        android:id="@+id/txtCategoriaEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margem_conteudo_perguntar"
+        android:layout_marginRight="@dimen/margem_conteudo_perguntar"
+        android:layout_marginBottom="@dimen/margem_conteudo_perguntar"
+        android:entries="@array/categorias"
+        android:ems="20"
+        app:layout_column="0"
+        app:layout_row="3"/>
+
+    <Button
+        android:id="@+id/botaoPerguntar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/perguntar"
+        android:layout_marginLeft="@dimen/margem_conteudo"
+        android:layout_marginRight="@dimen/margem_conteudo"
+        android:layout_marginTop="@dimen/margem_conteudo"
+        android:layout_marginBottom="@dimen/margem_conteudo"
+        app:layout_column="0"
+        app:layout_row="4"
+        style="@style/botao"/>
+
+</androidx.gridlayout.widget.GridLayout>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Best Answer</string>
+    <string name="menu_compartilhar">Compartilhe nas redes sociais</string>
+    <string name="menu_home">Home</string>
+    <string name="nav_header_desc">Best Answer</string>
+    <string name="action_sobre">Sobre</string>
+    <string name="menu_perguntar">Fazer uma pergunta</string>
+    <string name="menu_listar_perguntas">Ver todas perguntas</string>
+    <string name="menu_convidar">Convidar amigos</string>
+    <string name="mensagem_bem_vindo">Seja bem vindo ao Best Answer!</string>
+    <string name="mensagem_sobre">Encontre aqui as melhores respostas para suas dúvidas!</string>
+    <string name="convidar_amigo">Envie um email e convide um amigo para participar do Best Answer!</string>
+    <string name="convidar">Convidar</string>
+    <string name="informe_titulo_pergunta">Faça sua pergunta:</string>
+    <string name="informe_descricao_pergunta">Deseja adicionar uma descrição?</string>
+    <string name="informe_categoria_pergunta">Selecione uma categoria:</string>
+    <string name="perguntar">Perguntar</string>
+    <string name="deletar_pergunta">Excluir</string>
+    <string name="responder_pergunta">Responder</string>
+    <string name="editar_pergunta">Editar</string>
+    <string name="informe_sua_resposta">Digite aqui sua resposta:</string>
+    <string name="informe_seu_email">Informe seu email:</string>
+    <string name="informe_sua_senha">Informe sua senha:</string>
+    <string name="confirme_sua_senha">Confirme sua senha:</string>
+    <string name="login">Login</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="informe_titulo_artigo">Informe o título do artigo:</string>
+    <string name="informe_conteudo_artigo">Informe o conteúdo do artigo:</string>
+    <string name="menu_publicar_artigo">Publicar artigo</string>
+    <string name="menu_editar_artigo">Editar artigo</string>
+    <string name="menu_todos_artigos">Ver todos artigos</string>
+    <string name="editar_artigo">Editar artigo</string>
+    <string name="deletar_artigo">Excluir artigo</string>
+
+    <string-array name="categorias">
+        <item>Conselhos</item>
+        <item>Cultura</item>
+        <item>Curiosidades</item>
+        <item>Educação</item>
+        <item>Entretenimento</item>
+        <item>Esportes</item>
+        <item>Religião</item>
+        <item>Saúde</item>
+        <item>Tecnologia</item>
+    </string-array>
+</resources>

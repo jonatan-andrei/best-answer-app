@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.gridlayout.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:rowCount="4"
+    app:columnCount="1"
+    tools:context=".fragment.ListarPerguntasFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewListarPerguntas"
+        app:layout_column="0"
+        app:layout_row="0"/>
+
+</androidx.gridlayout.widget.GridLayout>

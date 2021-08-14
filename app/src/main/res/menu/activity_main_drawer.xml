@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_principal"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_perguntar"
+            android:icon="@drawable/ic_baseline_help_24"
+            android:title="@string/menu_perguntar" />
+
+        <item
+            android:id="@+id/nav_todas_perguntas"
+            android:icon="@drawable/ic_baseline_view_list_24"
+            android:title="@string/menu_listar_perguntas" />
+
+        <item
+            android:id="@+id/nav_convidar"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="@string/menu_convidar" />
+
+        <item
+            android:id="@+id/nav_publicar_artigo"
+            android:icon="@drawable/ic_baseline_article_24"
+            android:title="@string/menu_publicar_artigo" />
+
+        <item
+            android:id="@+id/nav_todos_artigos"
+            android:icon="@drawable/ic_baseline_library_books_24"
+            android:title="@string/menu_todos_artigos" />
+
+    </group>
+
+</menu>

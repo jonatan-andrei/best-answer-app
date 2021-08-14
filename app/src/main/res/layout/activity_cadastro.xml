@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.gridlayout.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.CadastroActivity"
+    app:rowCount="6"
+    app:columnCount="1">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewEmailCadastro"
+        app:errorEnabled="true"
+        app:counterEnabled="true"
+        app:counterMaxLength="50"
+        android:layout_marginLeft="@dimen/margem_conteudo"
+        android:layout_marginRight="@dimen/margem_conteudo"
+        android:layout_marginTop="@dimen/margem_conteudo"
+        app:layout_column="0"
+        app:layout_row="0"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtEmailCadastroEdit"
+            android:hint="@string/informe_seu_email"
+            android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewSenhaCadastro"
+        app:errorEnabled="true"
+        app:counterEnabled="true"
+        app:counterMaxLength="50"
+        android:layout_marginLeft="@dimen/margem_conteudo"
+        android:layout_marginRight="@dimen/margem_conteudo"
+        android:layout_marginTop="@dimen/margem_conteudo"
+        app:layout_column="0"
+        app:layout_row="1"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtSenhaCadastroEdit"
+            android:hint="@string/informe_sua_senha"
+            android:inputType="textPassword"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewConfirmarSenhaCadastro"
+        app:errorEnabled="true"
+        app:counterEnabled="true"
+        app:counterMaxLength="50"
+        android:layout_marginLeft="@dimen/margem_conteudo"
+        android:layout_marginRight="@dimen/margem_conteudo"
+        android:layout_marginTop="@dimen/margem_conteudo"
+        app:layout_column="0"
+        app:layout_row="2"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtConfirmarSenhaCadastroEdit"
+            android:hint="@string/confirme_sua_senha"
+            android:inputType="textPassword"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/botaoCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastro"
+        android:layout_marginLeft="@dimen/margem_conteudo"
+        android:layout_marginRight="@dimen/margem_conteudo"
+        android:layout_marginTop="@dimen/margem_conteudo"
+        android:layout_marginBottom="@dimen/margem_conteudo"
+        app:layout_column="0"
+        app:layout_row="3"
+        style="@style/botao"/>
+
+</androidx.gridlayout.widget.GridLayout>
